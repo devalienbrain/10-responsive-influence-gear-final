@@ -171,6 +171,17 @@ nav ul a {
   text-align: left;
 }
 
+/* See more arrow part */
+.see-more-container {
+  display: flex;
+  justify-content: end;
+}
+
+.see-more-container img {
+  width: 8.25rem;
+  height: 2rem;
+}
+
 /* Featured section */
 .featured-container {
   margin-top: 2rem;
@@ -195,18 +206,43 @@ nav ul a {
   margin-bottom: 1.25rem;
 }
 
+.featured-contents button {
+  border-radius: 0;
+}
+
+/* Footer starts */
 footer {
   background: #0A0826;
   text-align: center;
   padding: 2rem 0.5rem;
 }
 
+.footer-contents>h3,
+.footer-contents>p {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.footer-contents>h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.footer-contents>p {
+  font-size: 0.85rem;
+}
+
 /* Responsible media query styles*/
 
 @media screen and (max-width: 576px) {
   .default-margin {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .default-section-top-gap {
+    margin-top: 2rem;
   }
 
   .responsible-special-hidden {
