@@ -157,6 +157,15 @@ nav ul a {
   text-align: left;
 }
 
+/* Star ratings style */
+.checked {
+  color: #FB8200;
+}
+
+.score {
+  margin-left: 1rem;
+}
+
 /* See more arrow part */
 .see-more-container {
   display: flex;
