@@ -24,27 +24,19 @@
 .common-header-large {
   color: #3A3A3A;
   font-size: 3.25rem;
-  font-style: normal;
   font-weight: 700;
-  line-height: 4rem;
-  /* 134.615% */
 }
 
 .common-header-avg {
   color: #3A3A3A;
   font-size: 1.75rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: 4rem;
-  /* 250% */
 }
 
 .common-header-small {
   color: #3A3A3A;
   font-size: 1rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 
 .common-btn {
@@ -57,11 +49,8 @@
   background: #E02C6D;
   color: #FFF;
   font-size: 1rem;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
-
 
 /* Header Navbar starts */
 .navbar {
@@ -83,9 +72,7 @@ nav ul a {
   text-decoration: none;
   color: #3A3A3A;
   font-size: 1rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 
 .nav-ul-imgs-container {
@@ -131,8 +118,8 @@ nav ul a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(0, 0, 0, 0.651);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.651);
   gap: 0.5rem;
   flex-wrap: wrap;
 }
@@ -155,7 +142,6 @@ nav ul a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  /* grid-template-rows: max-content; */
   justify-content: center;
 }
 
