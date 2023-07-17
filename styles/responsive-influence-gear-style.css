@@ -97,7 +97,7 @@ nav ul a {
 }
 
 .banner-img {
-  background-image: url('images/Circle-design.svg');
+  background-image: url('../images/Circle-design.svg');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 0.25rem;
@@ -248,6 +248,15 @@ footer {
     display: inline-flex;
   }
 
+  .logo {
+    flex-basis: 60px;
+  }
+
+  .logo img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .banner-container,
   .collection-cards-container,
   .featured-container {
@@ -263,4 +272,13 @@ footer {
     display: block;
   }
 
+  .collection-card {
+    margin-bottom: 32px;
+  }
+
+  .banner-contents,
+  .featured-contents {
+    text-align: center;
+    margin-bottom: 32px;
+  }
 }
